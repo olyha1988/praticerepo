@@ -6,3 +6,6 @@ const addGST=price=>price+price*0.18;
 const validationLogin=(username,password)=>username==="admin" && password==="1234";
 //Cart Item Court
 const getcartCount=Items=>Items.length;
+console.log(convertToSeconds(30));
+console.log(addGST(50));
+console.log(validationLogin("admin","1234"));
