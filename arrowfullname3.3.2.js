@@ -27,5 +27,22 @@ const response = {
         }
     }
 }
-let {id,Nationality }=response.data.User;
+let {id,Nationality}=response.data.User;
 console.log(id,Nationality);
+
+//Is this Allowed ? Mutation
+
+const user = {
+name: "Harish"
+};
+user.name = "Ravi";
+console.log(user.name);
+
+// default parameters(back up parametrs)
+const fetchData=(token='eyJzdWIiOiIxMj')=>
+{
+ console.log("token:",token )   
+}
+fetchData("oly123");
+fetchData();
+
