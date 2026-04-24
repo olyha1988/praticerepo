@@ -1,0 +1,1 @@
+import{add,mult,sub}from `./19`;

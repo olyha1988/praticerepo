@@ -1,0 +1,1 @@
+import arthematiicsFunc from "./19.1";

@@ -1,11 +1,11 @@
 //Default parameters
 
-//const fetchProduct=(page=10,limit=5);
-//{
+const fetchProduct=(page=10,limit=5){
 
-//console.log();
-//console.log(20,25);
-//}
+console.log("Page:",page,"Limit",limit);
+}
+fetchProduct()
+fetchProducts(50,45);
 
 //Object Destructuring
 
@@ -71,7 +71,7 @@ darkMode: !settings.darkMode
 console.log(settings);
 console.log(updatedSettings);
 
-//Toggle darkMode using spread(notifitions)
+//T5.oggle darkMode using spread(notifitions)
 
 const setting={darkMode:false,notifition:true};
 const updatedNotifitoins={...setting,
@@ -80,7 +80,7 @@ notifition: !setting.notifition
 console.log(setting);
 console.log(updatedNotifitoins);
 
-//Add Multiple Items to Array
+//6.Add Multiple Items to Array
 
 const tasks=["Task 1"];
 const updedTasks=[
